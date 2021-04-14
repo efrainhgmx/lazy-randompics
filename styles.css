@@ -58,5 +58,18 @@ img {
 
 .image {
     margin: 25px auto;
-    inline-size: 120px;
+    inline-size: 280px;
+}
+
+footer {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    header {
+        max-inline-size: 1450px;
+        block-size: 75px;
+        display: flex;
+        justify-content: space-between;
+    }
 }
