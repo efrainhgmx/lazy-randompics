@@ -1,0 +1,62 @@
+html {
+    font-size: 62.5%;
+}
+
+body,
+button {
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.6rem
+}
+
+button {
+    display: block;
+    margin-inline: auto;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+main {
+    margin: auto;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.add-button {
+    inline-size: 125px;
+    margin-block-end: 10px;
+    padding: 5px;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+
+.clear-button {
+    border: none;
+    background-color: transparent;
+    color: blue;
+    text-decoration: underline;
+}
+
+
+.image {
+    margin: 25px auto;
+    inline-size: 120px;
+}
