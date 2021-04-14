@@ -59,6 +59,8 @@ img {
 .image {
     margin: 25px auto;
     inline-size: 280px;
+    min-block-size: 160px;
+    background-color: lightgray;
 }
 
 footer {

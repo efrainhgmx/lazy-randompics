@@ -10,8 +10,9 @@ const random = () => Math.floor(Math.random() * (maximum - minimum)) + minimum;
 const createImageNode = () => {
     const imageContainer = document.createElement('figure');
     imageContainer.className = "image";
+    imageContainer.style.blockSize = "auto";
     const image = document.createElement('img');
-    image.src = `https://randomfox.ca/images/${random()}.jpg`;
+    image.dataset.src = `https://randomfox.ca/images/${random()}.jpg`;
     image.alt = "Randon image";
 
     imageContainer.appendChild(image);
