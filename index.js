@@ -1,3 +1,5 @@
+import { registerImage } from './src/lazy.js';
+
 //Generador de numeros radom
 const minimum = 1;
 const maximum = 122;
@@ -26,6 +28,7 @@ const addButton = document.querySelector('.add-button');
 const addImage = () => {
     const newRandomImage = createImageNode();
     sectionImages.append(newRandomImage);
+    registerImage(newRandomImage);
 };
 
 //Ejecuta la funcion addImage al hacer click
