@@ -24,6 +24,7 @@ const createImageNode = () => {
 const sectionImages = document.getElementById('images');
 
 const addButton = document.querySelector('.add-button');
+const clearButton = document.querySelector('.clear-button');
 
 //Agrega una Imagen 
 const addImage = () => {
@@ -32,5 +33,13 @@ const addImage = () => {
     registerImage(newRandomImage);
 };
 
+const clear = () => {
+    const imageContainer = document.getElementById('images');
+    [...imageContainer.childNodes].forEach((item) => {
+        imageContainer.removeChild(item);
+    });
+}
+
 //Ejecuta la funcion addImage al hacer click
 addButton.addEventListener("click", addImage);
+clearButton.addEventListener("click", clear);
