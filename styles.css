@@ -65,7 +65,23 @@ img {
 }
 
 footer {
+    width: 90%;
     text-align: center;
+}
+
+@media (max-width: 475px) {
+    h1,
+    p {
+        text-align: center;
+    }
+
+    header {
+        margin-block-end: 75px;
+    }
+
+    footer p {
+        font-size: 1.2rem;
+    }
 }
 
 @media (min-width: 768px) {
