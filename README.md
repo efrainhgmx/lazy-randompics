@@ -1,7 +1,7 @@
 # lazy-randompics
 Random Pics using lazy loading Plugin with JavaScript
 
-Images by  [Unsplash](https://unsplash.com/developers).
+API and Images by  [Unsplash](https://unsplash.com/developers).
 
 ![Random Pics](./img/Lazy-RandomPics.gif)
 
